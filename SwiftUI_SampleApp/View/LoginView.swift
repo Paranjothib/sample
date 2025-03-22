@@ -38,7 +38,6 @@ struct LoginView: View {
                     
                     HStack {
                         Button(action: {
-                            authService.startSignInWithAppleFlow()
                         }, label: {
                             Image("apple")
                         })
